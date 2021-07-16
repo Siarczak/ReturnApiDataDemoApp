@@ -28,7 +28,7 @@ public class BooksController {
 
     }
 
-    @GetMapping("/titles")
+    @GetMapping("/bookslist")
     public String getListOfTitles(Model model) {
 
         model.addAttribute("listOfTitles", listOfTitles());
